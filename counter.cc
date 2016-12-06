@@ -1,7 +1,5 @@
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
+// Hannah Naetzker
+// CS3560
 
 #include "counter.h"
 #include <stdio.h>
@@ -20,7 +18,6 @@ void Counter::countLine(char* pName){
 void Counter::countChar(char* pName){
 	int num = 0;
 	for(int i=0; i < strlen(pName); i++){
-		cout << pName[i];
 		num++;
 	}
 	cout << num << " Chars" << endl;

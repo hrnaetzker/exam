@@ -13,7 +13,8 @@ int main()
 	if(file != ""){
 		theCounter.countLine(file);
 		theCounter.countChar(file);
+	}else{
+		theCounter.countLine();
+		theCounter.countChar();
 	}
-	theCounter.countLine();
-	theCounter.countChar();
 }
